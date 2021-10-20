@@ -1,0 +1,42 @@
+* {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.light {
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  z-index: 10;
+  transition: ease-in 0.5s;
+  transform: rotate(-180deg) translateY(-350px);
+  transform-origin: top;
+}
+
+.saber {
+  position: absolute;
+  width: 100px;
+  transform: translateY(345px);
+}
+
+button {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  right: 10px;
+  top: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
